@@ -1,0 +1,3 @@
+win_flex character_analyzer.l 
+gcc --version
+win_flex --version
