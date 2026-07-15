@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main() {
+
+    int number = 10;
+
+    float value = 25.5;
+
+    return number;
+
+}
