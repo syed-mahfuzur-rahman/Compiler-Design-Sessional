@@ -1,0 +1,8 @@
+int _count;
+float totalMarks;
+char grade;
+
+if(totalMarks>50)
+{
+    grade='A';
+}
