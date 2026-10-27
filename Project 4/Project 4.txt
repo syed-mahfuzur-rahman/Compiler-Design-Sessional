@@ -1,0 +1,11 @@
+Project-04: Identifier Symbol Table Manager
+
+Step-by-Step Tasks
+ 1. Study the problem statement and identify functional requirements.
+ 2. Accept input from a file or keyboard as specified.
+ 3. Design the required algorithm or data structure.
+ 4. Implement the solution using C/C++ (or Flex where applicable).
+ 5. Test the program using both valid and invalid input cases.
+ 6. Display the output in a clear and readable format.
+ 7. Debug, document and demonstrate the completed project.
+

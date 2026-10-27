@@ -1,3 +1,6 @@
+// Project-02: Keyword and Identifier
+
+// definition section
 %{
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,18 +11,22 @@ int identifierCount = 0;
 %}
 
 
+// rules section
 %%
 "#include"[ \t]*<[^>]+> ;
 
 if|else|for|return|include|int|float|printf { printf("Keyword: %s\n", yytext); keywordCount++; }
 
-[a-zA-Z_][a-zA-Z0-9_]*  { printf("Identifier: %s\n", yytext); identifierCount++; }
+[a-zA-Z_] [a-zA-Z0-9_]*  { printf("Identifier: %s\n", yytext); identifierCount++; }
+
 
 [ \t\r\n]+    ;
 
 .              ;
 %%
 
+
+// user code section
 int main()
 {
     yyin = fopen("source.txt", "r");
